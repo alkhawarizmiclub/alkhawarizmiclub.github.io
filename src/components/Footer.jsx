@@ -1,12 +1,16 @@
-
+import SocialMediaIcon from "./SocialMediaIcon";
+import clubSocialMediaLinks from "../assets/json/clubSocialMediaLinks";
+import {ReactComponent as LogoLightSVG} from "../assets/images/logoLightSVG.svg";
 
 const Footer = () => {
+
+    console.log(clubSocialMediaLinks);
     return (
         <footer className="pt-24 pb-10 w-full text-white text-lg bg-blue-900">
             <div className="footer-container mx-auto w-full max-w-7xl space-y-10">
 
-                <div className="flex justify-between">
-                    <div>LOGO</div>
+                <div className="flex justify-between items-center">
+                    <div className='h-12'><LogoLightSVG className="w-full h-full"/></div>
                     <div id="footer-social-media-icons" className="">
                         <p><span className=" font-semibold">Email:</span> <span>contact@alkhawarizmi.club</span></p>
                         <p><span className=" font-semibold">Address:</span> <span>contact@alkhawarizmi.club</span></p>
@@ -16,9 +20,11 @@ const Footer = () => {
                 <div className="border-t border-white"></div>
 
                 <ul id="footer-social-media-icons" className="w-full flex justify-center gap-4">
-                    <li className="h-10 w-10 bg-white"><a href="http://www.google.com">Fa</a></li>
-                    <li className="h-10 w-10 bg-white"><a href="http://www.google.com">Fa</a></li>
-                    <li className="h-10 w-10 bg-white"><a href="http://www.google.com">Fa</a></li>
+
+                    {Object.keys(clubSocialMediaLinks).map((link, i) => (
+                        <li className="h-10 w-10 text-3xl"><a href={clubSocialMediaLinks[link]}><SocialMediaIcon pltaformName={link} /></a></li>
+                    ))}
+
                 </ul>
 
             </div>
