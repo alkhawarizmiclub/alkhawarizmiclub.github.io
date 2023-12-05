@@ -26,7 +26,19 @@
     {
         "first name": "hicham",
         "last name": "benokaiss",
-        "description": "secretary general",
+        "description": "Secretary-General",
+        "portrait src": "/assets/images/member-image.png",
+        "social media": {
+            "facebook": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": ""
+        }
+    },
+    {
+        "first name": "mouad",
+        "last name": "oumouss",
+        "description": "Deputy Secretary-General",
         "portrait src": "/assets/images/member-image.png",
         "social media": {
             "facebook": "",
@@ -38,7 +50,7 @@
     {
         "first name": "ilyas",
         "last name": "alabidi",
-        "description": "This is an example of a descriptionn",
+        "description": "assistant",
         "portrait src": "/assets/images/member-image.png",
         "social media": {
             "facebook": "",
@@ -50,7 +62,7 @@
     {
         "first name": "fahd",
         "last name": "el hamza",
-        "description": "This is an example of a descriptionn",
+        "description": "assistant",
         "portrait src": "/assets/images/member-image.png",
         "social media": {
             "facebook": "",
@@ -62,7 +74,7 @@
     {
         "first name": "mohamed hossam",
         "last name": "baiz",
-        "description": "This is an example of a descriptionn",
+        "description": "assistant",
         "portrait src": "/assets/images/member-image.png",
         "social media": {
             "facebook": "",

@@ -7,6 +7,11 @@ import coreTeamMembers from "../assets/json/coreTeamMembers.json";
 
 const Home = () => {
 
+    const clubPresident = coreTeamMembers[0];
+    const clubMembers = coreTeamMembers.slice(1);
+
+    console.log(clubPresident, clubMembers);
+
     return (
         <>
             <Header />
@@ -50,14 +55,24 @@ const Home = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20">
 
-                        {Object.keys(coreTeamMembers).map( (member, i) => (
+                        <div className="hidden xl:block"></div>
+                        <TeamMember
+                            firstName={clubPresident['first name']}
+                            lastName={clubPresident['last name']}
+                            description={clubPresident['description']}
+                            imgSrc={clubPresident['portrait src']}
+                            socialMediaLinks={clubPresident['social media']}
+                        />                        
+                        <div className="hidden xl:block"></div>
+
+                        {Object.keys(clubMembers).map( (member, i) => (
 
                             <TeamMember
-                                firstName={coreTeamMembers[member]["first name"]}
-                                lastName={coreTeamMembers[member]['last name']}
-                                description={coreTeamMembers[member]['description']}
-                                imgSrc={coreTeamMembers[member]['portrait src']}
-                                socialMediaLinks={coreTeamMembers[member]['social media']}
+                                firstName={clubMembers[member]['first name']}
+                                lastName={clubMembers[member]['last name']}
+                                description={clubMembers[member]['description']}
+                                imgSrc={clubMembers[member]['portrait src']}
+                                socialMediaLinks={clubMembers[member]['social media']}
                                 key={i}
                             />
 
