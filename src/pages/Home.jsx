@@ -54,7 +54,8 @@ const Home = () => {
                     <SectionTitle title={'Core Team Members'} text_color={'text-blue-900'}/>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20">
-
+                        
+                        {/* ----------------- Club's President ----------------- */}
                         <div className="hidden xl:block"></div>
                         <TeamMember
                             firstName={clubPresident['first name']}
@@ -65,6 +66,7 @@ const Home = () => {
                         />                        
                         <div className="hidden xl:block"></div>
 
+                        {/* ----------------- Club's Core Members ----------------- */}
                         {Object.keys(clubMembers).map( (member, i) => (
 
                             <TeamMember
@@ -77,7 +79,7 @@ const Home = () => {
                             />
 
                         ) )}
-                    
+
                     </div>
 
                 </Section>
