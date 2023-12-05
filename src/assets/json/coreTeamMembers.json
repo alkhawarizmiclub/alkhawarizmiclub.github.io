@@ -2,78 +2,85 @@
     {
         "first name": "achraf",
         "last name": "mansari",
-        "description": "dezfezhzbefjzhhzr",
-        "social media": [
-            {"facebook": ""},
-            {"instagram": ""},
-            {"linkedin": ""},
-            {"youtube": ""}
-        ]
+        "description": "This is an example of a descriptionn",
+        "portrait src": "/assets/images/member-image.png",
+        "social media": {
+            "facebook": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": ""
+        }
     },
     {
         "first name": "achraf",
         "last name": "mansari",
-        "description": "dezfezhzbefjzhhzr",
-        "social media": [
-            {"facebook": ""},
-            {"instagram": ""},
-            {"linkedin": ""},
-            {"youtube": ""}
-        ]
+        "description": "This is an example of a descriptionn",
+        "portrait src": "/assets/images/member-image.png",
+        "social media": {
+            "facebook": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": ""
+        }
     },
     {
         "first name": "achraf",
         "last name": "mansari",
-        "description": "dezfezhzbefjzhhzr",
-        "social media": [
-            {"facebook": ""},
-            {"instagram": ""},
-            {"linkedin": ""},
-            {"youtube": ""}
-        ]
+        "description": "This is an example of a descriptionn",
+        "portrait src": "/assets/images/member-image.png",
+        "social media": {
+            "facebook": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": ""
+        }
     },
     {
         "first name": "achraf",
         "last name": "mansari",
-        "description": "dezfezhzbefjzhhzr",
-        "social media": [
-            {"facebook": ""},
-            {"instagram": ""},
-            {"linkedin": ""},
-            {"youtube": ""}
-        ]
+        "description": "This is an example of a descriptionn",
+        "portrait src": "/assets/images/member-image.png",
+        "social media": {
+            "facebook": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": ""
+        }
     },
     {
         "first name": "achraf",
         "last name": "mansari",
-        "description": "dezfezhzbefjzhhzr",
-        "social media": [
-            {"facebook": ""},
-            {"instagram": ""},
-            {"linkedin": ""},
-            {"youtube": ""}
-        ]
+        "description": "This is an example of a descriptionn",
+        "portrait src": "/assets/images/member-image.png",
+        "social media": {
+            "facebook": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": ""
+        }
     },
     {
         "first name": "achraf",
         "last name": "mansari",
-        "description": "dezfezhzbefjzhhzr",
-        "social media": [
-            {"facebook": ""},
-            {"instagram": ""},
-            {"linkedin": ""},
-            {"youtube": ""}
-        ]
+        "description": "This is an example of a descriptionn",
+        "portrait src": "/assets/images/member-image.png",
+        "social media": {
+            "facebook": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": ""
+        }
     },
     {
         "first name": "achraf",
         "last name": "mansari",
-        "description": "dezfezhzbefjzhhzr",
-        "social media": [
-            {"facebook": ""},
-            {"instagram": ""},
-            {"linkedin": ""},
-            {"youtube": ""}
-        ]
+        "description": "This is an example of a descriptionn",
+        "portrait src": "/assets/images/member-image.png",
+        "social media": {
+            "facebook": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": ""
+        }
     }
 ]
