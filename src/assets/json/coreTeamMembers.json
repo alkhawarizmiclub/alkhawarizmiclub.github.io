@@ -2,6 +2,42 @@
     {
         "first name": "achraf",
         "last name": "mansari",
+        "description": "president",
+        "portrait src": "/assets/images/member-image.png",
+        "social media": {
+            "facebook": "",
+            "linkedin": "",
+            "instagram": "",
+            "leetcode": ""
+        }
+    },
+    {
+        "first name": "nawfal",
+        "last name": "taouqi",
+        "description": "vice-president",
+        "portrait src": "/assets/images/member-image.png",
+        "social media": {
+            "facebook": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": ""
+        }
+    },
+    {
+        "first name": "hicham",
+        "last name": "benokaiss",
+        "description": "secretary general",
+        "portrait src": "/assets/images/member-image.png",
+        "social media": {
+            "facebook": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": ""
+        }
+    },
+    {
+        "first name": "ilyas",
+        "last name": "alabidi",
         "description": "This is an example of a descriptionn",
         "portrait src": "/assets/images/member-image.png",
         "social media": {
@@ -12,8 +48,8 @@
         }
     },
     {
-        "first name": "achraf",
-        "last name": "mansari",
+        "first name": "fahd",
+        "last name": "el hamza",
         "description": "This is an example of a descriptionn",
         "portrait src": "/assets/images/member-image.png",
         "social media": {
@@ -24,56 +60,8 @@
         }
     },
     {
-        "first name": "achraf",
-        "last name": "mansari",
-        "description": "This is an example of a descriptionn",
-        "portrait src": "/assets/images/member-image.png",
-        "social media": {
-            "facebook": "",
-            "instagram": "",
-            "linkedin": "",
-            "youtube": ""
-        }
-    },
-    {
-        "first name": "achraf",
-        "last name": "mansari",
-        "description": "This is an example of a descriptionn",
-        "portrait src": "/assets/images/member-image.png",
-        "social media": {
-            "facebook": "",
-            "instagram": "",
-            "linkedin": "",
-            "youtube": ""
-        }
-    },
-    {
-        "first name": "achraf",
-        "last name": "mansari",
-        "description": "This is an example of a descriptionn",
-        "portrait src": "/assets/images/member-image.png",
-        "social media": {
-            "facebook": "",
-            "instagram": "",
-            "linkedin": "",
-            "youtube": ""
-        }
-    },
-    {
-        "first name": "achraf",
-        "last name": "mansari",
-        "description": "This is an example of a descriptionn",
-        "portrait src": "/assets/images/member-image.png",
-        "social media": {
-            "facebook": "",
-            "instagram": "",
-            "linkedin": "",
-            "youtube": ""
-        }
-    },
-    {
-        "first name": "achraf",
-        "last name": "mansari",
+        "first name": "mohamed hossam",
+        "last name": "baiz",
         "description": "This is an example of a descriptionn",
         "portrait src": "/assets/images/member-image.png",
         "social media": {

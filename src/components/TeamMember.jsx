@@ -11,7 +11,7 @@ const TeamMember = ( { firstName, lastName, description, imgSrc, socialMediaLink
                 <img src={imgSrc} alt=""/>
             </div>
 
-            <div className="member-container p-5 pl-32 rounded-2xl space-y-2 bg-gradient-to-tr from-blue-900 to-blue-600">
+            <div className="member-container p-5 pl-32 rounded-2xl space-y-2 bg-gradient-to-tr from-blue-950 to-blue-700">
 
                 {/* ------------ Full Name ------------ */}
                 <h1 className="w-full flex flex-col capitalize text-2xl text-white font-semibold">
@@ -20,7 +20,7 @@ const TeamMember = ( { firstName, lastName, description, imgSrc, socialMediaLink
                 </h1>
 
                 {/* ------------ Description ------------ */}
-                <p className="text-blue-200">{description}</p>
+                <p className="pb-4 capitalize text-blue-200">{description}</p>
 
                 {/* ------------ Social Media Icons ------------ */}
                 <ul className="w-full flex gap-2 text-white">
