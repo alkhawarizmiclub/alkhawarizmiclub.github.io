@@ -1,6 +1,6 @@
 import SocialMediaIcon from "./SocialMediaIcon";
 import clubSocialMediaLinks from "../assets/json/clubSocialMediaLinks";
-import {ReactComponent as LogoLightSVG} from "../assets/images/logoLightSVG.svg";
+import LogoLightSVG from "../assets/images/logoLightSVG.svg";
 
 const Footer = () => {
 
@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="footer-container mx-auto w-full max-w-7xl space-y-10">
 
                 <div className="flex justify-between items-center">
-                    <div className='h-12'><LogoLightSVG className="w-full h-full"/></div>
+                    <div className='h-12'><img src={LogoLightSVG} className="w-full h-full"/></div>
                     <div id="footer-social-media-icons" className="">
                         <p><span className=" font-semibold">Email:</span> <span>contact@alkhawarizmi.club</span></p>
                         <p><span className=" font-semibold">Address:</span> <span>contact@alkhawarizmi.club</span></p>
