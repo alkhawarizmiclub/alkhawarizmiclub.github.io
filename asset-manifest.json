@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.9aa0098d.css",
-    "main.js": "/static/js/main.86813f23.js",
-    "static/js/787.25b0f9cb.chunk.js": "/static/js/787.25b0f9cb.chunk.js",
-    "static/media/header-bg.png": "/static/media/header-bg.b398b8b15495882f3a1c.png",
-    "index.html": "/index.html",
-    "main.9aa0098d.css.map": "/static/css/main.9aa0098d.css.map",
-    "main.86813f23.js.map": "/static/js/main.86813f23.js.map",
-    "787.25b0f9cb.chunk.js.map": "/static/js/787.25b0f9cb.chunk.js.map"
+    "main.css": "/club_website/static/css/main.40814387.css",
+    "main.js": "/club_website/static/js/main.75e7b66d.js",
+    "static/js/787.25b0f9cb.chunk.js": "/club_website/static/js/787.25b0f9cb.chunk.js",
+    "static/media/header-bg.png": "/club_website/static/media/header-bg.b398b8b15495882f3a1c.png",
+    "index.html": "/club_website/index.html",
+    "main.40814387.css.map": "/club_website/static/css/main.40814387.css.map",
+    "main.75e7b66d.js.map": "/club_website/static/js/main.75e7b66d.js.map",
+    "787.25b0f9cb.chunk.js.map": "/club_website/static/js/787.25b0f9cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9aa0098d.css",
-    "static/js/main.86813f23.js"
+    "static/css/main.40814387.css",
+    "static/js/main.75e7b66d.js"
   ]
 }
