@@ -1,16 +1,17 @@
 import Header from "../components/Header";
-import Footer from "../components/Footer";
 import Section from "../components/Section";
 import SectionTitle from "../components/SectionTitle";
+import Activity from "../components/Activity";
 import TeamMember from "../components/TeamMember";
+import Footer from "../components/Footer";
+
+import clubActivities from "../assets/json/clubActivities.json";
 import coreTeamMembers from "../assets/json/coreTeamMembers.json";
 
 const Home = () => {
 
     const clubPresident = coreTeamMembers[0];
     const clubMembers = coreTeamMembers.slice(1);
-
-    console.log(clubPresident, clubMembers);
 
     return (
         <>
@@ -37,7 +38,17 @@ const Home = () => {
 
                     <SectionTitle title={'Activities'} text_color={'text-white'}/>
 
-                    <div>TETETETETETET</div>
+                    <div className="grid grid-cols-2 gap-5">
+                        {Object.values(clubActivities).map((activity, i) => (
+                            <Activity 
+                                label={activity['label']}
+                                description={activity['descritpion']}
+                                date={activity['date']}
+                                location={activity['location']}
+                                key={i}
+                            />
+                        ))}
+                    </div>
 
                 </Section>
 
