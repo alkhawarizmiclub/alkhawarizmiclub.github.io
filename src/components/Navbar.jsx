@@ -4,7 +4,7 @@ import LogoDarkSVG from "../assets/images/logoDarkSVG.svg";
 
 const Navbar = () => {
     return (
-        <nav className="">
+        <nav className="w-full">
             <div className="navbar-container p-4 mx-auto w-full max-w-screen-2xl h-20 flex justify-between items-center">
                 <Link to={'/'} className="h-full"><img src={LogoDarkSVG} className="h-full" /></Link>
                 <ul className="flex items-center gap-5 font-medium text-lg text-blue-950">

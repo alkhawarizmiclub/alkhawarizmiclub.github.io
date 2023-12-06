@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+const plugin = require('tailwindcss/plugin')
+
+
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -7,9 +10,25 @@ module.exports = {
     extend: {
       backgroundImage: {
         'header-bg': "url('assets/images/header-bg.png')",
-      }
+      },
+      textShadow: {
+        sm: '0 0 2px var(--tw-shadow-color)',
+        DEFAULT: '0 0 4px var(--tw-shadow-color)',
+        lg: '0 0 16px var(--tw-shadow-color)',
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ matchUtilities, theme }) {
+      matchUtilities(
+        {
+          'text-shadow': (value) => ({
+            textShadow: value,
+          }),
+        },
+        { values: theme('textShadow') }
+      )
+    }),
+  ],
 }
 
