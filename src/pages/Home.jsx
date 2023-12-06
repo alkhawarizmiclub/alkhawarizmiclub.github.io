@@ -21,7 +21,15 @@ const Home = () => {
 
                     <SectionTitle title={'Who we are?'} text_color={'text-white'}/>
 
-                    <div>TETETETETETET</div>
+                    <div className="grid grid-cols-2 gap-10">
+                        <div className="w-full flex flex-col justify-center gap-2 text-xl text-white">
+                            <p>Founded in 2023 by the students of the multidisciplinary college of Khouribga (Faculté Polydisciplinaire de Khouribga), we're a student-led community thriving on pushing the boundaries of our knowledge, exploring the latest technologies, undertaking hands-on projects, and fostering collaboration with like-minded enthusiasts.</p>
+                            <p>Join us on our journey as we navigate the fascinating landscapes of computer science, immerse ourselves in the world of IT innovations, and unlock the full potential of robotics.</p>
+                        </div>
+                        <div className="w-full overflow-hidden rounded-2xl">
+                            <img src="/assets/images/header-bg.png" />
+                        </div>
+                    </div>
 
                 </Section>
 
