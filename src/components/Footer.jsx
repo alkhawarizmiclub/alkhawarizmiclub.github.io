@@ -6,7 +6,7 @@ const Footer = () => {
 
     console.log(clubSocialMediaLinks);
     return (
-        <footer className="pt-24 pb-10 w-full text-white text-lg bg-blue-900">
+        <footer className="pt-24 pb-10 w-full text-white text-lg bg-blue-950">
             <div className="footer-container mx-auto w-full max-w-7xl space-y-10">
 
                 <div className="flex justify-between items-center">
