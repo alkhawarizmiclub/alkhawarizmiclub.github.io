@@ -1,12 +1,15 @@
 import Header from "../components/Header";
 import Section from "../components/Section";
 import SectionTitle from "../components/SectionTitle";
+import Project from "../components/Project";
 import Activity from "../components/Activity";
 import TeamMember from "../components/TeamMember";
 import Footer from "../components/Footer";
 
 import clubActivities from "../assets/json/clubActivities.json";
 import coreTeamMembers from "../assets/json/coreTeamMembers.json";
+import clubProjects from "../assets/json/clubProjects.json";
+
 
 const Home = () => {
 
@@ -38,7 +41,17 @@ const Home = () => {
 
                     <SectionTitle title={'Our Projects'} text_color={'text-blue-950'}/>
 
-                    <div>TETETETETETET</div>
+                    <div className="w-full grid grid-cols-4 gap-4">
+                        {Object.values(clubProjects).map((project, i)=>(
+                            <Project
+                                imgURL={project['imgURL']}
+                                label={project['label']}
+                                description={project['descritpion']}
+                                links={project['links']}
+                                key={i}
+                            />
+                        ))}
+                    </div>
 
                 </Section>
 
