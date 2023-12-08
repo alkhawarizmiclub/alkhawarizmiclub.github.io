@@ -1,0 +1,38 @@
+[
+    {
+        "imgURL": "assets/images/header-bg.png",
+        "label": "Project #1",
+        "descritpion": "This some text to fill in the description paragraph of a project",
+        "links": {
+            "github": "",
+            "demo": ""
+        }
+    },
+    {
+        "imgURL": "assets/images/header-bg.png",
+        "label": "Project #1",
+        "descritpion": "This some text to fill in the description paragraph of a project",
+        "links": {
+            "github": "",
+            "demo": ""
+        }
+    },
+    {
+        "imgURL": "assets/images/header-bg.png",
+        "label": "Project #1",
+        "descritpion": "This some text to fill in the description paragraph of a project",
+        "links": {
+            "github": "",
+            "demo": ""
+        }
+    },
+    {
+        "imgURL": "assets/images/header-bg.png",
+        "label": "Project #1",
+        "descritpion": "This some text to fill in the description paragraph of a project",
+        "links": {
+            "github": "",
+            "demo": ""
+        }
+    }
+]

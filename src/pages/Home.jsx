@@ -3,14 +3,14 @@ import Footer from "../components/Footer";
 import Section from "../components/Section";
 import SectionTitle from "../components/SectionTitle";
 import TeamMember from "../components/TeamMember";
+import clubProjects from "../assets/json/clubProjects.json";
 import coreTeamMembers from "../assets/json/coreTeamMembers.json";
+import Project from "../components/Project";
 
 const Home = () => {
 
     const clubPresident = coreTeamMembers[0];
     const clubMembers = coreTeamMembers.slice(1);
-
-    console.log(clubPresident, clubMembers);
 
     return (
         <>
@@ -29,7 +29,17 @@ const Home = () => {
 
                     <SectionTitle title={'Our Projects'} text_color={'text-blue-900'}/>
 
-                    <div>TETETETETETET</div>
+                    <div className="w-full grid grid-cols-4 gap-4">
+                        {Object.values(clubProjects).map((project, i)=>(
+                            <Project
+                                imgURL={project['imgURL']}
+                                label={project['label']}
+                                description={project['descritpion']}
+                                links={project['links']}
+                                key={i}
+                            />
+                        ))}
+                    </div>
 
                 </Section>
 
