@@ -2,9 +2,6 @@ import SocialMediaIcon from "./SocialMediaIcon";
 
 const Project = ( {imgURL, label, description, links} ) => {
 
-    console.log(links);
-    Object.values(links).map((link, i) =>{console.log(link);});
-
     return (
         <div className="p-5 rounded-2xl text-center space-y-2 border-2 border-blue-950 drop-shadow-lg bg-white">
             <img src={imgURL} className="rounded-lg" />
