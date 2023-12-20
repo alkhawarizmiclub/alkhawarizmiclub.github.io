@@ -12,7 +12,7 @@ const Footer = () => {
                     <div className='h-12'><img src={LogoLightSVG} className="w-full h-full"/></div>
                     <div className="text-center md:text-left space-y-2">
                         <p><span className="font-bold">Email:</span> <a href="mailto:contact@alkhawarizmi.club">contact@alkhawarizmi.club</a></p>
-                        <p><span className="font-bold">Address:</span> <span>Hay Ezzaitoune BP 145, Bd 2 Mars, Khouribga 25000</span></p>
+                        <p><span className="font-bold">Address:</span> <a href="https://maps.app.goo.gl/iXc33UFZXd3SwotbA">Hay Ezzaitoune BP 145, Bd 2 Mars, Khouribga 25000</a></p>
                     </div>
                 </div>
 
@@ -21,7 +21,7 @@ const Footer = () => {
                 <ul id="footer-social-media-icons" className="w-full flex justify-center gap-2">
 
                     {Object.keys(clubSocialMediaLinks).map((link, i) => (
-                        <li className="text-3xl"><a href={clubSocialMediaLinks[link]}><SocialMediaIcon pltaformName={link} /></a></li>
+                        <li key={i} className="text-3xl transition-all duration-200 text-white hover:text-gray-200"><a href={clubSocialMediaLinks[link]}><SocialMediaIcon pltaformName={link} /></a></li>
                     ))}
 
                 </ul>
