@@ -25,13 +25,13 @@ const Home = () => {
 
                     <SectionTitle title={'Who we are?'} text_color={'text-white'}/>
 
-                    <div className="grid grid-cols-2 gap-10">
+                    <div className="flex flex-col-reverse md:flex-row gap-10">
                         <div className="w-full flex flex-col justify-center gap-2 text-xl text-white">
                             <p>Founded in 2023 by the students of the multidisciplinary college of Khouribga (Faculté Polydisciplinaire de Khouribga), we're a student-led community thriving on pushing the boundaries of our knowledge, exploring the latest technologies, undertaking hands-on projects, and fostering collaboration with like-minded enthusiasts.</p>
                             <p>Join us on our journey as we navigate the fascinating landscapes of computer science, immerse ourselves in the world of IT innovations, and unlock the full potential of robotics.</p>
                         </div>
                         <div className="w-full overflow-hidden rounded-2xl">
-                            <img src="/assets/images/header-bg.png" />
+                            <img src="/assets/images/header-bg.png" className="w-full h-full object-cover"/>
                         </div>
                     </div>
 
@@ -41,7 +41,7 @@ const Home = () => {
 
                     <SectionTitle title={'Our Projects'} text_color={'text-blue-950'}/>
 
-                    <div className="w-full grid grid-cols-4 gap-4">
+                    <div className="w-full grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
                         {Object.values(clubProjects).map((project, i)=>(
                             <Project
                                 imgURL={project['imgURL']}
@@ -59,7 +59,7 @@ const Home = () => {
 
                     <SectionTitle title={'Activities'} text_color={'text-white'}/>
 
-                    <div className="grid grid-cols-2 gap-5">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
                         {Object.values(clubActivities).map((activity, i) => (
                             <Activity 
                                 label={activity['label']}

@@ -6,7 +6,7 @@ const Header = () => {
 
             <Navbar/>
 
-            <div className="grow flex flex-col justify-center items-center gap-4 text-blue-950 text-shadow shadow-white">
+            <div className="px-10 grow flex flex-col justify-center gap-4 text-center text-blue-950 text-shadow shadow-white">
                 <h1 className="text-5xl font-semibold">By the students, and for the students</h1>
                 <h2 className="text-3xl font-normal">Creating a difference iside the campus of our college</h2>
             </div>
