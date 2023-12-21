@@ -12,7 +12,7 @@ const Footer = () => {
                     <div className='h-12'><img src={LogoLightSVG} className="w-full h-full"/></div>
                     <div className="text-center md:text-left space-y-2">
                         <p><span className="font-bold">Email:</span> <a href="mailto:contact@alkhawarizmi.club">contact@alkhawarizmi.club</a></p>
-                        <p><span className="font-bold">Address:</span> <a href="https://maps.app.goo.gl/iXc33UFZXd3SwotbA">Hay Ezzaitoune BP 145, Bd 2 Mars, Khouribga 25000</a></p>
+                        <p><span className="font-bold">Address:</span> <a href="https://maps.app.goo.gl/iXc33UFZXd3SwotbA">Faculté Polydisciplinaire de Khouribga, Hay Ezzaitoune, Bd 2 Mars, Khouribga, Morocco</a></p>
                     </div>
                 </div>
 

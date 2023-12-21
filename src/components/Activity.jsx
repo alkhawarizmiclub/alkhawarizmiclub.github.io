@@ -9,7 +9,7 @@ const Activity = ( {label, description, date, location} ) => {
             </div>
             <div className="p-5 w-full grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-2 font-thin">
                 <div className="order-last sm:order-first col-span-2 sm:col-span-1 flex justify-center items-center">
-                    <a href="http://www.google.com" className="py-1 px-4 w-full rounded-lg font-medium text-white transition-all duration-200 bg-blue-950 hover:bg-slate-900">Read More</a>
+                    <a href="http://www.google.com" className="py-1 px-4 w-full rounded-lg font-medium text-center text-white transition-all duration-200 bg-blue-950 hover:bg-slate-900">Read More</a>
                 </div>
                 <div className="sm:col-span-2 flex justify-between sm:justify-around items-center gap-1">
                     <span className="flex items-center gap-2"><FaCalendar/>{date}</span>
