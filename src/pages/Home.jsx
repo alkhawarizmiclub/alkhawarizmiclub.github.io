@@ -66,6 +66,7 @@ const Home = () => {
                                 description={activity['descritpion']}
                                 date={activity['date']}
                                 location={activity['location']}
+                                google_maps_url={activity['google_maps_url']}
                                 key={i}
                             />
                         ))}
