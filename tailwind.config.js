@@ -9,7 +9,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'header-bg': "url('assets/images/header-bg.png')",
+        'header-bg': "url('assets/images/header-bg2.png')",
+        'header-bg-layer': "url('assets/images/header-bg-layer1.svg')",
       },
       textShadow: {
         sm: '0 0 2px var(--tw-shadow-color)',
