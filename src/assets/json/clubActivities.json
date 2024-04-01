@@ -1,20 +1,23 @@
 [
     {
-        "label": "Activity #1",
-        "descritpion": "Activity description is written here to briefly explain what is the goal of it, and what are the benefits from attending it and something.",
-        "location": "Rabat, Morocco",
-        "date": "Dec 19, 2023"
+        "label": "Programming Basics Workshop [Part 3]",
+        "descritpion": "Organized a workshop on the basics of programming with Python.",
+        "location": "FPK, Khouribga, Morocco",
+        "google_maps_url": "https://maps.app.goo.gl/FhThWYkZwLWSyAa47",
+        "date": "April 18, 2024"
     },
     {
-        "label": "Activity #1",
-        "descritpion": "Activity description is written here to briefly explain what is the goal of it, and what are the benefits from attending it and something.",
-        "location": "Khouribga, Morocco",
-        "date": "Dec 19, 2023"
+        "label": "Programming Basics Workshop [Part 2]",
+        "descritpion": "Organized a workshop on the basics of programming with Python.",
+        "location": "FPK, Khouribga, Morocco",
+        "google_maps_url": "https://maps.app.goo.gl/FhThWYkZwLWSyAa47",
+        "date": "April 4, 2024"
     },
     {
-        "label": "Activity #1",
-        "descritpion": "Activity description is written here to briefly explain what is the goal of it, and what are the benefits from attending it and something.",
-        "location": "Sale El Jadida, Morocco",
-        "date": "Dec 19, 2023"
+        "label": "Programming Basics Workshop [Part 1]",
+        "descritpion": "Organized a workshop on the basics of programming with Python.",
+        "location": "FPK, Khouribga, Morocco",
+        "google_maps_url": "https://maps.app.goo.gl/FhThWYkZwLWSyAa47",
+        "date": "March 28, 2024"
     }
 ]
