@@ -19,7 +19,9 @@ const Footer = () => {
                 <ul id="footer-social-media-icons" className="w-full flex justify-center gap-2">
 
                     {Object.keys(clubSocialMediaLinks).map((link, i) => (
-                        <li key={i} className="text-3xl transition-all duration-200 text-white hover:text-gray-200"><a href={clubSocialMediaLinks[link]}><SocialMediaIcon pltaformName={link} /></a></li>
+                        <li key={i} className="text-3xl transition-all duration-200 text-white hover:text-gray-200">
+                            <a href={clubSocialMediaLinks[link]} target="_blank"><SocialMediaIcon pltaformName={link} /></a>
+                        </li>
                     ))}
 
                 </ul>
