@@ -3,7 +3,7 @@
         "first name": "achraf",
         "last name": "mansari",
         "description": "president",
-        "portrait src": "/assets/images/member-image-1.png",
+        "portrait src": "/assets/images/members/achraf.jpg",
         "social media": {
             "facebook": "",
             "linkedin": "",
@@ -15,7 +15,7 @@
         "first name": "nawfal",
         "last name": "taouqi",
         "description": "vice-president",
-        "portrait src": "/assets/images/member-image-2.png",
+        "portrait src": "/assets/images/members/nawfal.png",
         "social media": {
             "facebook": "",
             "instagram": "",
@@ -27,7 +27,7 @@
         "first name": "hicham",
         "last name": "benokaiss",
         "description": "Secretary-General",
-        "portrait src": "/assets/images/member-image-3.png",
+        "portrait src": "/assets/images/members/hicham.png",
         "social media": {
             "facebook": "",
             "instagram": "",
@@ -39,7 +39,7 @@
         "first name": "mouad",
         "last name": "oumouss",
         "description": "Deputy Secretary-General",
-        "portrait src": "/assets/images/member-image-5.png",
+        "portrait src": "/assets/images/members/mouad.png",
         "social media": {
             "facebook": "",
             "instagram": "",
@@ -50,8 +50,8 @@
     {
         "first name": "ilyas",
         "last name": "abidi",
-        "description": "assistant",
-        "portrait src": "/assets/images/member-image-7.png",
+        "description": "advisor",
+        "portrait src": "/assets/images/members/ilyasse.png",
         "social media": {
             "facebook": "",
             "instagram": "",
@@ -62,8 +62,8 @@
     {
         "first name": "fahd",
         "last name": "el hamza",
-        "description": "assistant",
-        "portrait src": "/assets/images/member-image-6.png",
+        "description": "advisor",
+        "portrait src": "/assets/images/members/fahd.png",
         "social media": {
             "facebook": "",
             "instagram": "",
@@ -74,8 +74,8 @@
     {
         "first name": "mohamed hossam",
         "last name": "baiz",
-        "description": "assistant",
-        "portrait src": "/assets/images/member-image-4.png",
+        "description": "advisor",
+        "portrait src": "/assets/images/members/hossam.png",
         "social media": {
             "facebook": "",
             "instagram": "",

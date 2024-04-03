@@ -7,8 +7,8 @@ const TeamMember = ( { firstName, lastName, description, imgSrc, socialMediaLink
         <div className="mx-auto max-w-lg w-full h-full relative">
 
             {/* ------------ Portrait Image ------------ */}
-            <div className="w-32 h-32 rounded-full -translate-x-6 -translate-y-6 absolute aspect-square overflow-hidden bg-slate-600">
-                <img src={imgSrc} alt=""/>
+            <div className="w-32 h-32 rounded-full -translate-x-6 -translate-y-6 absolute aspect-square overflow-hidden drop-shadow-lg bg-slate-600">
+                <img src={imgSrc} alt="Team Member's portrait"/>
             </div>
 
             <div className="p-5 pl-32 h-full flex flex-col justify-evenly gap-2 rounded-2xl bg-gradient-to-tr from-blue-950 to-blue-900">
