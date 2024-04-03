@@ -20,8 +20,8 @@ const Header = () => {
 
             {/* ------------- Header Blended Background ------------- */}
             <div id="header-background" className="-z-10 absolute w-full h-full top-0 left-0 blur-md">
-                <div className="absolute w-full h-full bg-center bg-no-repeat bg-cover bg-[url('assets/images/header-bg2.png')]"></div>
-                {/* <div className="absolute w-full h-full bg-repeat bg-opacity-0 bg-[url('assets/images/header-bg-layer1.svg')]"></div> */}
+                <div className="absolute w-full h-full bg-center bg-no-repeat bg-cover bg-header-bg"></div>
+                {/* <div className="absolute w-full h-full bg-repeat bg-opacity-0 bg-header-bg-layer"></div> */}
             </div>
 
         </header>
