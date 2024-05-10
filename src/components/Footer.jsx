@@ -11,8 +11,8 @@ const Footer = () => {
                 <div className="pb-10 flex flex-col md:flex-row justify-center md:justify-between items-center gap-20 border-b border-white">
                     <div className='h-12'><img src={LogoLightSVG} className="w-full h-full"/></div>
                     <div className="text-center md:text-left space-y-2">
-                        <p><span className="font-bold">Email:</span> <a href="mailto:contact@alkhawarizmi.club">contact@alkhawarizmi.club</a></p>
-                        <p><span className="font-bold">Address:</span> <a href="https://maps.app.goo.gl/eCiM22i4yS7kq9fz5" target="_blank">Faculté Polydisciplinaire de Khouribga, Hay Ezzaitoune, Bd 2 Mars, Khouribga, Morocco</a></p>
+                        <p><span className="font-bold">Email:</span> <a href="mailto:contact.alkhawarizmiclub@gmail.com">contact.alkhawarizmiclub@gmail.com</a></p>
+                        <p><span className="font-bold">Address:</span> <a href="https://maps.app.goo.gl/eCiM22i4yS7kq9fz5" target="_blank" rel="noreferrer">Faculté Polydisciplinaire de Khouribga, Hay Ezzaitoune, Bd 2 Mars, Khouribga, Morocco</a></p>
                     </div>
                 </div>
 
@@ -20,7 +20,7 @@ const Footer = () => {
 
                     {Object.keys(clubSocialMediaLinks).map((link, i) => (
                         <li key={i} className="text-3xl transition-all duration-200 text-white hover:text-gray-200">
-                            <a href={clubSocialMediaLinks[link]} target="_blank"><SocialMediaIcon pltaformName={link} /></a>
+                            <a href={clubSocialMediaLinks[link]} target="_blank" rel="noreferrer"><SocialMediaIcon pltaformName={link} /></a>
                         </li>
                     ))}
 
