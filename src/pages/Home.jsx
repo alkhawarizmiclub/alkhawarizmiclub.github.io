@@ -31,7 +31,7 @@ const Home = () => {
                             <p>Join us on our journey as we navigate the fascinating landscapes of computer science, immerse ourselves in the world of IT innovations, and unlock the full potential of robotics.</p>
                         </div>
                         <div className="w-full overflow-hidden rounded-2xl">
-                            <img src="/assets/images/header-bg.png" className="w-full h-full object-cover"/>
+                            <img src="/assets/images/header-bg.png" className="w-full h-full object-cover" alt=""/>
                         </div>
                     </div>
 
@@ -84,7 +84,7 @@ const Home = () => {
 
                 <Section bg_color={'bg-white'}>
 
-                    <SectionTitle title={'Core Team Members'} text_color={'text-blue-950'}/>
+                    <SectionTitle title={'The Crew'} text_color={'text-blue-950'}/>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20">
                         
