@@ -1,6 +1,5 @@
 import Header from "../components/Header";
 import Section from "../components/Section";
-import SectionTitle from "../components/SectionTitle";
 import Project from "../components/Project";
 import Activity from "../components/Activity";
 import TeamMember from "../components/TeamMember";
@@ -21,9 +20,7 @@ const Home = () => {
             <Header />
             <main>
 
-                <Section bg_color={'bg-blue-950'}>
-
-                    <SectionTitle title={'Who we are?'} text_color={'text-white'}/>
+                <Section title="Who we are?" text_color="text-white" bg_color="bg-blue-950">
 
                     <div className="flex flex-col-reverse md:flex-row gap-10">
                         <div className="w-full flex flex-col justify-center gap-2 text-xl text-white">
@@ -37,9 +34,7 @@ const Home = () => {
 
                 </Section>
 
-                <Section bg_color={'bg-blue-50'}>
-
-                    <SectionTitle title={'Our Projects'} text_color={'text-blue-950'}/>
+                <Section title="Our Projects" text_color="text-blue-950" bg_color="bg-blue-50">
 
                     <div className="w-full grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
                         {Object.values(clubProjects).map((project, i)=>(
@@ -55,9 +50,7 @@ const Home = () => {
 
                 </Section>
 
-                <Section bg_color={'bg-blue-950'}>
-
-                    <SectionTitle title={'Activities'} text_color={'text-white'}/>
+                <Section title="Activities" text_color="text-white" bg_color="bg-blue-950">
 
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
                         {Object.values(clubActivities).map((activity, i) => (
@@ -74,17 +67,13 @@ const Home = () => {
 
                 </Section>
 
-                <Section bg_color={'bg-blue-50'}>
-
-                    <SectionTitle title={'Participations'} text_color={'text-blue-950'}/>
+                <Section title="Participations" text_color="text-blue-950" bg_color="bg-blue-50">
 
                     <div>TETETETETETET</div>
 
                 </Section>
 
-                <Section bg_color={'bg-white'}>
-
-                    <SectionTitle title={'The Crew'} text_color={'text-blue-950'}/>
+                <Section title="The Crew" text_color="text-blue-950" bg_color="bg-white">
 
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20">
                         
