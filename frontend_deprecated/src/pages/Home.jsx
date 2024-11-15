@@ -5,9 +5,11 @@ import Activity from "../components/Activity";
 import TeamMember from "../components/TeamMember";
 import Footer from "../components/Footer";
 
-import clubActivities from "../assets/json/clubActivities.json";
-import coreTeamMembers from "../assets/json/coreTeamMembers.json";
 import clubProjects from "../assets/json/clubProjects.json";
+import clubActivities from "../assets/json/clubActivities.json";
+import clubParticipations from "../assets/json/clubParticipations.json";
+import coreTeamMembers from "../assets/json/coreTeamMembers.json";
+import Participation from "../components/Participation";
 
 
 const Home = () => {
@@ -28,7 +30,7 @@ const Home = () => {
                             <p>Join us on our journey as we navigate the fascinating landscapes of computer science, immerse ourselves in the world of IT innovations, and unlock the full potential of robotics.</p>
                         </div>
                         <div className="w-full overflow-hidden rounded-2xl">
-                            <img src="/assets/images/header-bg.png" className="w-full h-full object-cover" alt=""/>
+                            <img src="https://alkhawarizmiclub.github.io/assets/images/header-bg.png" className="w-full h-full object-cover" alt="" />
                         </div>
                     </div>
 
@@ -37,46 +39,32 @@ const Home = () => {
                 <Section title="Our Projects" text_color="text-blue-950" bg_color="bg-blue-50">
 
                     <div className="w-full grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                        {Object.values(clubProjects).map((project, i)=>(
-                            <Project
-                                imgURL={project['imgURL']}
-                                label={project['label']}
-                                description={project['descritpion']}
-                                links={project['links']}
-                                key={i}
-                            />
-                        ))}
+                        {clubProjects.map(({ label, descritpion, imgURL, links }, i) => <Project key={i} label={label} description={descritpion} imgURL={imgURL} links={links} />
+                        )}
                     </div>
 
                 </Section>
 
                 <Section title="Activities" text_color="text-white" bg_color="bg-blue-950">
 
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
-                        {Object.values(clubActivities).map((activity, i) => (
-                            <Activity 
-                                label={activity['label']}
-                                description={activity['descritpion']}
-                                date={activity['date']}
-                                location={activity['location']}
-                                google_maps_url={activity['google_maps_url']}
-                                key={i}
-                            />
-                        ))}
+                    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-5">
+                        {clubActivities.map(({ mediaURL, label, descritpion, date, location, google_maps_url }, i) => <Activity key={i} mediaURL={mediaURL} label={label} description={descritpion} date={date} location={location} google_maps_url={google_maps_url} />)}
                     </div>
 
                 </Section>
 
                 <Section title="Participations" text_color="text-blue-950" bg_color="bg-blue-50">
 
-                    <div>TETETETETETET</div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
+                        {clubParticipations.map(({ mediaURL, label, descritpion, location, date }, i) => <Participation key={i} mediaURL={mediaURL} label={label} descritpion={descritpion} location={location} date={date} />)}
+                    </div>
 
                 </Section>
 
                 <Section title="The Crew" text_color="text-blue-950" bg_color="bg-white">
 
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20">
-                        
+
                         {/* ----------------- Club's President ----------------- */}
                         <div className="hidden xl:block"></div>
                         <TeamMember
@@ -85,11 +73,11 @@ const Home = () => {
                             description={clubPresident['description']}
                             imgSrc={clubPresident['portrait src']}
                             socialMediaLinks={clubPresident['social media']}
-                        />                        
+                        />
                         <div className="hidden xl:block"></div>
 
                         {/* ----------------- Club's Core Members ----------------- */}
-                        {Object.keys(clubMembers).map( (member, i) => (
+                        {Object.keys(clubMembers).map((member, i) => (
 
                             <TeamMember
                                 firstName={clubMembers[member]['first name']}
@@ -100,17 +88,17 @@ const Home = () => {
                                 key={i}
                             />
 
-                        ) )}
+                        ))}
 
                     </div>
 
                 </Section>
 
-                <Footer/>
+                <Footer />
 
             </main>
         </>
     );
 }
- 
+
 export default Home;

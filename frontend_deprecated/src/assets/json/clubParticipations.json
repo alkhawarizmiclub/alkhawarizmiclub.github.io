@@ -1,0 +1,16 @@
+[
+    {
+        "mediaURL": "https://picsum.photos/seed/6/1920/1080",
+        "label": "MNPC 23",
+        "descritpion": "Competed in the Moroccan National Programming Contest organized by MACS, representing one of 60 teams selected from 270 registered teams.",
+        "location": "UM6P, Ben Guerir, Morocco",
+        "date": "Feb 23 & 24, 2024"
+    },
+    {
+        "mediaURL": "https://picsum.photos/seed/7/1920/1080",
+        "label": "Dataverse 2.0",
+        "descritpion": "Participated in the Dataverse 2.0 competition hosted by ENSA Khouribga, successfully developing and enhancing a machine learning model that achieved the highest R2 score.",
+        "location": "ENSA, Khouribga, Morocco",
+        "date": "Nov 20 & 21, 2023"
+    }
+]

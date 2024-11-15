@@ -1,6 +1,6 @@
 [
     {
-        "imgURL": "assets/images/header-bg.png",
+        "imgURL": "https://picsum.photos/seed/10/1920/1080",
         "label": "Project #1",
         "descritpion": "This some text to fill in the description paragraph of a project",
         "links": {
@@ -9,7 +9,7 @@
         }
     },
     {
-        "imgURL": "assets/images/header-bg.png",
+        "imgURL": "https://picsum.photos/seed/11/1920/1080",
         "label": "Project #1",
         "descritpion": "This some text to fill in the description paragraph of a project",
         "links": {
@@ -18,7 +18,7 @@
         }
     },
     {
-        "imgURL": "assets/images/header-bg.png",
+        "imgURL": "https://picsum.photos/seed/12/1920/1080",
         "label": "Project #1",
         "descritpion": "This some text to fill in the description paragraph of a project",
         "links": {
@@ -27,7 +27,7 @@
         }
     },
     {
-        "imgURL": "assets/images/header-bg.png",
+        "imgURL": "https://picsum.photos/seed/13/1920/1080",
         "label": "Project #1",
         "descritpion": "This some text to fill in the description paragraph of a project",
         "links": {

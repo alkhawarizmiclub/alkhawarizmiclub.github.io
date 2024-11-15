@@ -11,7 +11,7 @@ const TeamMember = ( { firstName, lastName, description, imgSrc, socialMediaLink
                 <img src={imgSrc} alt="Team Member's portrait"/>
             </div>
 
-            <div className="p-5 pl-32 h-full flex flex-col justify-evenly gap-2 rounded-2xl bg-gradient-to-tr from-blue-950 to-blue-900">
+            <div className="p-5 pl-32 h-full flex flex-col justify-evenly gap-2 rounded-2xl shadow shadow-black/40 bg-gradient-to-tr from-blue-950 to-blue-900">
 
                 {/* ------------ Full Name ------------ */}
                 <h1 className="w-full flex flex-col capitalize text-2xl text-white font-semibold">
